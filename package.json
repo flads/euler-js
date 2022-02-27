@@ -1,0 +1,15 @@
+{
+  "name": "euler-js",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flads/euler-js.git"
+  },
+  "type": "module",
+  "author": "flads",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flads/euler-js/issues"
+  },
+  "homepage": "https://github.com/flads/euler-js#readme"
+}
