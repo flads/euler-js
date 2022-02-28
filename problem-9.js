@@ -10,7 +10,7 @@
  */
 
 function main() {
-    const number = 144;
+    const number = 1000;
 
     for (let x = 1; x < number; x++) {
         for (let y = 1; y < number; y++) {

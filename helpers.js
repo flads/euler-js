@@ -20,4 +20,12 @@ function getPrimes(quantity = 5000) {
     return primes;
 }
 
-export { isPrime, getPrimes };
+function reverseString(str) {
+    let splitString = str.split("");
+    let reverseArray = splitString.reverse();
+    let joinArray = reverseArray.join("");
+
+    return joinArray;
+}
+
+export { isPrime, getPrimes, reverseString };
