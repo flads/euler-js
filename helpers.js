@@ -7,10 +7,10 @@ function isPrime(num) {
     return num > 1;
 }
 
-function getFirst5000Primes() {
+function getPrimes(quantity = 5000) {
     const primes = [];
 
-    for (let i = 0, primeCount = 0; primeCount <= 5000; i++) {
+    for (let i = 0, primeCount = 0; primeCount <= quantity; i++) {
         if (isPrime(i)) {
             primeCount++;
             primes.push(i);
@@ -20,4 +20,4 @@ function getFirst5000Primes() {
     return primes;
 }
 
-export { isPrime, getFirst5000Primes };
+export { isPrime, getPrimes };
