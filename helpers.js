@@ -10,7 +10,7 @@ function isPrime(num) {
 function getPrimes(quantity = 5000) {
     const primes = [];
 
-    for (let i = 0, primeCount = 0; primeCount <= quantity; i++) {
+    for (let i = 1, primeCount = 0; primeCount < quantity; i++) {
         if (isPrime(i)) {
             primeCount++;
             primes.push(i);
